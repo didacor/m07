@@ -7,6 +7,10 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="167*"/>
+            <RowDefinition Height="267*"/>
+        </Grid.RowDefinitions>
         <Label HorizontalAlignment="Center" VerticalAlignment="Top" Height="88" Width="800" Background="#FFC30000" RenderTransformOrigin="0.489,-0.288"/>
         <Image HorizontalAlignment="Left" Height="108" VerticalAlignment="Top" Width="105" Source="/escutgirona.png" Margin="-5,-8,0,0"/>
         <Button Content="Notícies" HorizontalAlignment="Left" Margin="100,35,0,0" VerticalAlignment="Top" Click="Button_Click" Background="{x:Null}"/>
@@ -18,11 +22,11 @@
         <Image HorizontalAlignment="Left" Height="37" Margin="677,37,0,0" VerticalAlignment="Top" Width="16" Source="/login.png"/>
         <Button Content="" HorizontalAlignment="Left" Margin="673,34,0,0" VerticalAlignment="Top" Click="Button_Click" Background="{x:Null}" Width="24"/>
         <Button Content="CA" HorizontalAlignment="Left" Margin="702,34,0,0" VerticalAlignment="Top" Click="Button_Click" Background="{x:Null}" Width="26"/>
-        <Image HorizontalAlignment="Center" Height="358" Margin="0,88,0,0" VerticalAlignment="Top" Width="618" Source="/girona.png"/>
-        <Label Content="Cinquena victòria consecutiva i lliçó de futbol a Montilivi " HorizontalAlignment="Center" Margin="0,383,0,0" VerticalAlignment="Top" FontWeight="Bold" Foreground="White" Height="41" Width="548" FontSize="20" Background="Black"/>
-        <Image HorizontalAlignment="Left" Height="34" Margin="28,247,0,0" VerticalAlignment="Top" Width="32" Source="/botoendarrere.png"/>
-        <Button Content="" HorizontalAlignment="Left" Margin="19,238,0,0" VerticalAlignment="Top" Click="Button_Click" Background="{x:Null}" Width="50" Height="50"/>
-        <Button Content="" HorizontalAlignment="Left" Margin="732,238,0,0" VerticalAlignment="Top" Click="Button_Click" Background="{x:Null}" Width="50" Height="50"/>
-        <Image HorizontalAlignment="Left" Height="39" Margin="741,247,0,0" VerticalAlignment="Top" Width="32" Source="/botoendevant.png"/>
+        <Image HorizontalAlignment="Center" Height="358" Margin="0,88,0,0" VerticalAlignment="Top" Width="618" Source="/girona.png" Grid.RowSpan="2"/>
+        <Label Content="Cinquena victòria consecutiva i lliçó de futbol a Montilivi " HorizontalAlignment="Center" Margin="0,216,0,0" VerticalAlignment="Top" FontWeight="Bold" Foreground="White" Height="41" Width="548" FontSize="20" Background="Black" Grid.Row="1"/>
+        <Image HorizontalAlignment="Left" Height="34" Margin="28,80,0,0" VerticalAlignment="Top" Width="32" Source="/botoendarrere.png" Grid.Row="1"/>
+        <Button Content="" HorizontalAlignment="Left" Margin="19,71,0,0" VerticalAlignment="Top" Click="Button_Click" Background="{x:Null}" Width="50" Height="50" Grid.Row="1"/>
+        <Button Content="" HorizontalAlignment="Left" Margin="732,71,0,0" VerticalAlignment="Top" Click="Button_Click" Background="{x:Null}" Width="50" Height="50" Grid.Row="1"/>
+        <Image HorizontalAlignment="Left" Height="39" Margin="741,80,0,0" VerticalAlignment="Top" Width="32" Source="/botoendevant.png" Grid.Row="1"/>
     </Grid>
 </Window>

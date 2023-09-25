@@ -7,4 +7,22 @@
     <UseWPF>true</UseWPF>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Remove="botoendarrere.png" />
+    <None Remove="botoendevant.png" />
+    <None Remove="cercaicone.png" />
+    <None Remove="escutgirona.png" />
+    <None Remove="girona.png" />
+    <None Remove="login.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="botoendarrere.png" />
+    <Resource Include="botoendevant.png" />
+    <Resource Include="cercaicone.png" />
+    <Resource Include="escutgirona.png" />
+    <Resource Include="girona.png" />
+    <Resource Include="login.png" />
+  </ItemGroup>
+
 </Project>
